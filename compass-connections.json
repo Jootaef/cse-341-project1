@@ -1,0 +1,25 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "139a2df1-c3c5-4412-8b66-f0e693b46286",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1741574964113"
+        }
+      },
+      "favorite": {
+        "name": "jaydan"
+      },
+      "savedConnectionType": "favorite",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/",
+        "oidc": {}
+      },
+      "connectionSecrets": "AAF50CNOpxhXmiHH0pos2zVvXvUj9fJ8bRAXd0htlZiRvo/gpVM9sREGmbN+MTeTJToYeKZ8VoAZ3CEf0/jbUWQatmn5w/bM05F08sUhRF0qUqNxhmB85Rawhu4CDmDMrsA3Yq2U2Ig/8txFcurBl+bK6vfW4jtkG8U58M7RVRBD3V31S5GZiVmhaSI="
+    }
+  ]
+}
