@@ -1,0 +1,31 @@
+### GET all users
+# LOCALHOST
+GET http://localhost3000/users
+
+### GET user by ID
+GET http://localhost:3000/users/67e03bb0761fd8e6afec9565
+
+### Create user
+POST http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+{
+  "email": "aweaver@test.com",
+  "username": "Ashley",
+  "Name": "Weaver",
+  "ipAddress": "94.121.168.53"
+}
+
+### Update user
+PUT http://localhost:3000/users/67e03bb0761fd8e6afec9565 HTTP/1.1
+content-type: application/json
+
+{
+  "email": "amarokkkkkk@test.com",
+  "username": "carroce",
+  "Name": "Weavere",
+  "ipAddress": "94.121.168.54"
+}
+
+### Delete user
+DELETE http://localhost:3000/users/67e03bb0761fd8e6afec9565
