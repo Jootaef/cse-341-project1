@@ -28,4 +28,28 @@ content-type: application/json
 }
 
 ### Delete user
-DELETE http://localhost:3000/users/67e03bb0761fd8e6afec9565
+DELETE http://localhost:3001/users/67e03bb0761fd8e6afec9565
+
+##############################################
+
+GET https://cse-341-project1-b4e1.onrender.com/users
+
+### GET http://localhost:3001
+
+### GET http://localhost:3001/users
+
+### GET http://localhost:3001/users/67ddb4fd2001b4e81bd19764
+
+### create new user POST http://localhost:3001/users HTTP/1.1 Content-Type: application/json
+
+{
+"firstName": "Rhea", "lastName": "Reyes", "email": "rheareyes@email.com", "favoriteColor": "white", "birthday":"1991-06-22"
+}
+
+### update user PUT http://localhost:3001/users/67ddb3932001b4e81bd19763 HTTP/1.1 Content-Type: application/json
+
+{
+"firstName": "Delia", "lastName": "Reyes", "email": "deliareyes@email.com", "favoriteColor": "orange", "birthday":"1966-05-12"
+}
+
+### delete user DELETE http://localhost:3001/users/67ddb4fd2001b4e81bd19764 HTTP/1.1
