@@ -5,11 +5,10 @@
     "description": "Jaydan's personal Users API",
     "version": "1.0.0"
   },
-  "host": "localhost:3001",
+  "host": "cse-341-project1-9j8g.onrender.com",
   "basePath": "/",
   "schemes": [
-    "https",
-    "http"
+    "https"  
   ],
   "paths": {
     "/": {
