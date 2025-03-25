@@ -1,34 +1,39 @@
 ### GET all users
 # LOCALHOST
-GET http://localhost3000/users
+GET http://localhost:3001/users
 
 ### GET user by ID
-GET http://localhost:3000/users/67e03bb0761fd8e6afec9565
+GET http://localhost:3001/users/67e03bb0761fd8e6afec9565
 
 ### Create user
-POST http://localhost:3000/users HTTP/1.1
+POST http://localhost:3001/users HTTP/1.1
 content-type: application/json
 
-{
-  "email": "aweaver@test.com",
-  "username": "Ashley",
-  "Name": "Weaver",
-  "ipAddress": "94.121.168.53"
-}
+  {
+    "_id": "67e03b29761fd8e6afec9553",
+    "firstName": "erick" ,
+    "lastName": "sanchez" ,
+    "email": "alaicos@test.com",
+    "favoriteColor": "black",
+    "birthday": "2003-06-22"
+  }
 
 ### Update user
-PUT http://localhost:3000/users/67e03bb0761fd8e6afec9565 HTTP/1.1
+PUT http://localhost:3001/users/67e23dbf1516a676c37c7af7 HTTP/1.1
 content-type: application/json
 
 {
-  "email": "amarokkkkkk@test.com",
-  "username": "carroce",
-  "Name": "Weavere",
-  "ipAddress": "94.121.168.54"
+    "_id": "67e23dbf1516a676c37c7af10",
+    "firstName": "rori",
+    "lastName": "rodriguez",
+    "email": "rodriguez@test.com",
+    "favoriteColor": "red",
+    "birthday": "1994-06-22"
+
 }
 
 ### Delete user
-DELETE http://localhost:3001/users/67e03bb0761fd8e6afec9565
+DELETE http://localhost:3001/users/67e2344a0c373ad2e4eb23ca HTTP/1.1
 
 ##############################################
 
